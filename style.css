@@ -9,7 +9,7 @@ body {
     height: 420px; /* Tinggi slide */
     display: block;
     margin: auto; /* Atur margin menjadi auto untuk mengatur slide di tengah */
-    position: absolute; /* Atur posisi slide menjadi absolute */
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
