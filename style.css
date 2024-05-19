@@ -69,16 +69,15 @@
   width: 100%;
   height: 100%;
   background: var(--img);
-  background-size: contain; /* Tambahkan ini */
+  background-size: cover; /* Ubah ke cover */
+  background-position: center; /* Tambahkan ini */
   clip-path: circle(0% at 0% 50%);
   transition: 1.5s;
   transition-delay: 0s;
-  background-position: left;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
 }
-
 .wrapper .slider .slide:nth-child(even) {
   clip-path: circle(0% at 100% 50%);
   background-position: right;
