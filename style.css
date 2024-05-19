@@ -5,11 +5,15 @@ body {
 }
 .slides {
     padding: 0;
-    width: 609px;
-    height: 420px;
+    width: 609px; /* Lebar slide */
+    height: 420px; /* Tinggi slide */
     display: block;
-    margin: 0 auto;
-    position: relative;
+    margin: auto; /* Atur margin menjadi auto untuk mengatur slide di tengah */
+    position: absolute; /* Atur posisi slide menjadi absolute */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 .slides * {
     user-select: none;
